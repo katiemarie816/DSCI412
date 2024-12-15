@@ -1,0 +1,54 @@
+echo "# DSCI412" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/katiemarie816/DSCI412.git
+git push -u origin main
+---
+title: 'Project 8: Creating a GitHub Account'
+author: "Katie Rutherford"
+date: "2024-12-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Week One
+  
+The most significant thing I learned in Week One was how to create an RMarkdown Notebook. Additionally, I learned about the bias-variance tradeoff.
+  
+# Week Two
+  
+The most important lesson I learned during Week Two was the significance of visualization. Additionally, I discovered how to differentiate between exploratory analysis and explanatory analysis.
+
+  
+# Week Three
+  
+The key takeaway from Week Three is that it's advisable to start with a linear regression model. You should only explore more complex methods if they demonstrate better performance than the linear regression model. Additionally, one important assumption is that the error terms (residuals) are uncorrelated.
+  
+# Week Four
+  
+During Week Four, I learned about predicting classification. Classifying an observation involves assigning it to a specific category or class, which can be seen as a qualitative response to that observation. Additionally, the methods used for classification often estimate the probability that the observation fits into each category of a qualitative variable. This approach is similar to how regression methods function.
+
+  
+# Week Five
+  
+In Week Five, I learned that it is crucial to recognize that all algorithms have underlying assumptions. There are situations where the assumptions of linear regression may not be valid. For instance, if you are building a model to predict the number of auto accident claims, the normality assumption of linear regression could lead to the prediction of negative claims, which is not possible since claims cannot be negative.
+  
+Additionally, one limitation of generalized linear models (GLMs) is that they require responses to be independent of each other. GLMs also impose strict assumptions about the shape of the distribution and the unpredictability of error terms. Furthermore, they may have low predictive power and are at risk of overfitting if the model becomes overly complex or if there are too many predictor variables.
+  
+# Week Six
+  
+In week six, I learned that decision trees are popular models in machine learning because they are simple and easy to understand, making them easy to explain to management. However, random forests are often used to enhance accuracy compared to a single decision tree. The challenge, though, is that explaining random forests to management can be difficult because they involve multiple trees.
+  
+# Week Seven
+  
+After building our predictive models, we can evaluate their performance by comparing the actual responses to the predicted ones. This process is known as supervised learning. On the other hand, unsupervised learning relies solely on features, lacking actual observations. In this case, our goal is to discover unknown subgroups or clusters rather than make forecasts. Observations within the same subgroup are very similar, while observations in different clusters tend to be quite distinct.
+  
+Additionally, the R programming language offers various functions to address these analytical questions. These functions are user-friendly, although finding the optimal clusters can be time-consuming. To succeed, you simply need to know how to run these functions and interpret the results effectively.
+  
+# Week Eight
+  
+The most important lesson learned in Week Eight is that a great analysis means little if you can't explain it to others. It's essential to communicate your results effectively. If you're programming in R, rmarkdown is currently the best tool for documenting and sharing your work.
